@@ -13,7 +13,7 @@ function Main(){
     return(
         <>
             <div>
-                <div className="xs:mt-20"></div>
+                <div className="xs:pt-24"></div>
                 <Phase_i />
                 <Phase_ii />
                 <Phases_iii />

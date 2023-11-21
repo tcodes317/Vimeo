@@ -11,3 +11,20 @@
 #wid{
     width: 1250px;
 }
+@media screen and (min-width: 768px){
+    #vidmate{
+        position: relative;
+        height: 600px !important;
+    }
+}
+@media screen and (min-width: 150px){
+    #vidmate{
+        position: relative;
+        height: 350px;
+    }
+}
+@media screen and (min-width: 1440px){
+    #uuu{
+        height: 600px;
+    }
+}

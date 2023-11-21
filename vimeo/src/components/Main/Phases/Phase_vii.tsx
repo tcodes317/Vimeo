@@ -1,11 +1,12 @@
 function Phases_vii(){
     return(
         <>
-            <div className="xs:relative">
-                <div className="xs:my-8 xs:mt-24">
-                    <h1 className="xs:text-center xs:font-bold xs:text-3xl">The latest from vimeo</h1>
+            <div className="xs:relative xl:mt-42 border-2 xl:border-transparent">
+                <div className="xs:my-8 xs:mt-24 md:mb-24">
+                    <h1 className="xs:text-center xs:font-bold xs:text-3xl md:text-5xl md:w-5/12 md:mx-auto xl:text-5xl xl:w-full">The latest from vimeo</h1>
                 </div>
-                <div className="xs:px-4 space-y-4">
+                <div className="xs:px-4 space-y-4 mdd:mx-4">
+                    <div className="md:grid md:grid-cols-2 md:gap-6 xl:grid-cols-3">
                     <div className="xs:flex xs:flex-col xs:bg-slate-600 xs:rounded-xl"> {/** return flex to grid */}
                         <img src="https://i.vimeocdn.com/custom_asset/c8004cc4e3c6c091f70f2cfc6065a17a" className="xs:w-full xs:rounded-2xl" alt="Michael" />
                         <div className="xs:ml-8">
@@ -41,6 +42,7 @@ function Phases_vii(){
                                 <i className="fa fa-arrow-right xs:px-5 xs:bg-slate-600 xs:py-1.5 xs:ml-8 xs:rounded-lg"></i>
                             </button>
                         </div>
+                    </div>
                     </div>
                 </div>
             </div>
