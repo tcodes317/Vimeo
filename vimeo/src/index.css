@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind utilities;
 @tailwind components;
+
+
+#hei{
+    height: 550px;
+    width: 100%;
+    border: 10px solid;
+}
+#wid{
+    width: 1250px;
+}

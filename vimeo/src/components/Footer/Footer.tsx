@@ -1,8 +1,9 @@
 function Footer(){
     return(
         <>
-            <div className="relative">
-            </div>        
+            <div className="">
+                
+            </div>
         </>
     )
 }
