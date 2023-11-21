@@ -52,7 +52,7 @@ function Phase_vi(){
                         </div>
                     </button>
                 </div>
-                <div className="xll:mx-14 xll:relative xll:top-10 xll:shadow-2xl xll:shadow-white xll:rounded-3xl">
+                <div className="xll:mx-14 xll:relative xll:top-10 xll:shadow-2xl xll:shadow-white xll:rounded-3xl xs:hidden xl:block">
                     <img src="https://i.vimeocdn.com/custom_asset/83f9790fe2c178ec39d0095564a0f706" alt="" className="xll:rounded-3xl"/>
                 </div>
                 </div>
